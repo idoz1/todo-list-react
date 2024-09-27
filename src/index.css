@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3d3d3d;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.todoButton {
+  border: none;
+  width: 40px;
+}
+
+.todoIcon {
+  font-size: 30px;
+}
+
+.cross {
+  color: red;
+}
+
+.edit {
+  color: #f0e119;
+}
+
+.check {
+  color: lawngreen;
+}
+
+.todoButton {
+  margin: 0 25px 0 0;
+  background-color: #000000;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+} 
+
+h3 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(234, 236, 236);
+  margin: 0 0 0 20px;
+}
+
+.task {
+  border-radius: 20px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b2a2a;
+  box-shadow: black;
+  margin: 30px 0 0 0;
+}
+
