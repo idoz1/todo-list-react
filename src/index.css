@@ -28,6 +28,7 @@ label {
 }
 
 .addNewTask {
+  border: none;
   margin: 7px 0 0 0;
   border-radius: 10px;
   height: 30px;
@@ -36,7 +37,17 @@ label {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: rgb(0, 0, 0);
+  color: rgb(168, 168, 168);
+  background-color: #535353;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+
+.addNewTask:hover {
+  color: #fff;
 }
 
 .todoButton {
@@ -95,7 +106,18 @@ h3 {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: rgb(234, 236, 236);
+  color: #fff;
+  background-color: #535353;
+  border: none;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+
+.taskName:hover {
+  color: #fff;
 }
 
 .taskDone {
@@ -105,4 +127,27 @@ h3 {
   height: 15px;
   background-color: lawngreen;
   margin: 2px 0 0 0;
+}
+
+
+.btn {
+  margin: 40px 0 0 0;
+  border-radius: 20px;
+  border: none;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 200px;
+  height: 30px;
+  background-color: #535353;
+  color: rgb(168, 168, 168);
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+
+.btn:hover {
+  color: #fff;
 }
